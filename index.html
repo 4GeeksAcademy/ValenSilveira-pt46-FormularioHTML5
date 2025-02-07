@@ -33,7 +33,7 @@
         <label for="Amount" class="form-label">Amount</label>
         <div class="input-group" style="fw-bold">
           <i class="fas fa-dollar-sign"></i>
-          <input type="text" class="form-control" id="Amount" placeholder="Amount">
+          <input type="number" class="form-control" id="Amount" placeholder="Amount">
         </div>
       </div>
     </div>
@@ -71,24 +71,32 @@
       </div>
     </div>
     <!--metodo de pago-->
+   
+
+
 
     <div class=" row g-3 mb-3">
       <div class="col">
-        <label class="form-label">we accept:</label>
+        <label for="we accept" class="form-label">we accept:</label>
+        
         <div class=" col-5 bg-secondary text-white gap-3 p-2 rounded d-flex jusify-content-around">
           <div>
-            <input type="radio" name="payment" class="me-1">
+            <label id="we accept"></label>
+            <input type="radio"  name="payment" class="me-1"> 
             <i class="fa-brands fa-cc-mastercard"></i>
           </div>
           <div>
+            <label id="we accept"></label>
             <input type="radio" name="payment" class="me-1">
             <i class="fa-brands fa-cc-visa"></i>
           </div>
           <div>
+            <label id="we accept"></label>
             <input type="radio" name="payment" class="me-1">
             <i class="fa-brands fa-cc-diners-club"></i>
           </div>
           <div>
+            <label id="we accept"></label>
             <input type="radio" name="payment" class="me-1">
             <i class="fa-brands fa-cc-amex"></i>
           </div>
